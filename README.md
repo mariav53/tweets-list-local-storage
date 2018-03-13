@@ -5,6 +5,9 @@ Make a list of tweets. If you close and open the browser tab again or refresh it
 Project from Udemy course [JavaScript Moderno](https://www.udemy.com/javascript-moderno-guia-definitiva-construye-10-proyectos)
 
 Technologies used:
-HTML5
-CSS3
-javaScript
+
+- HTML5
+
+- CSS3
+
+- JavaScript 
