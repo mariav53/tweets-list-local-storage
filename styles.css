@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background: lavender;
+}
+h2{
+  font-size: 1.2em;
+}
+.logo{
+  margin: 30px 0;
+  text-align: center;
+}
+.twitter_logo{
+  max-width: 60px;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.tweet__container{
+  padding: 30px;
+}
+#formulario{
+  box-sizing: border-box;
+  position: relative;
+  padding: 20px 0;
+}
+#tweet{
+  width: 100%;
+  box-sizing: border-box;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #76a9ea;
+  border-radius: 6px;
+  box-shadow: none;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.button--submit{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 16px;
+  border-style: none;
+  background:#76a9ea;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.button--submit:focus{
+  outline: none;
+}
+.tweets__container{
+  padding: 30px;
+}
+.tweets__container_title{
+  margin-bottom: 20px;
+}
+#lista-tweets li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+  float: right;
+  cursor: pointer;
+  color: grey;
+  font-weight: bold;
+}
+@media all and (min-width: 747px){
+  .container{
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  .tweet__container{
+    width: 50%;
+    padding: 30px;
+  }
+  .tweets__container{
+    width: 50%;
+    padding: 30px;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+}

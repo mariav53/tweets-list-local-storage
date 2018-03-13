@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <div id="contenido">
+    <div class="logo">
+      <img src="assets/twitter.png" alt="" class="twitter_logo">
+    </div>
+
+    <div class="container">
+
+      <div class="tweet__container">
+        <h2 class="tweet__container_title">Redactar un nuevo tweet</h2>
+        <form action="#" id="formulario">
+          <label for="tweet"></label>
+          <input type="text" id="tweet" placeholder="¿Qué está pasando?"/>
+          <input type="submit" class="button--submit" value="Twittear">
+        </form>
+      </div>
+
+      <div class="tweets__container">
+        <h2 class="tweets__container_title">Mis Tweets</h2>
+        <div id="lista-tweets"></div>
+      </div>
+
+    </div> <!--#container-->
+  </div> <!--#contenido-->
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
